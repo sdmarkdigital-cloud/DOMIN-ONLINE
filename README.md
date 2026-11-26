@@ -33,3 +33,12 @@ Remove os contornos amarelos das pontas. Somente a última pedra do parceiro rec
 
 ## v1.9
 Primeira rodada e revanche: maior bucha (ou maior soma se não houver bucha). Nas demais, a dupla vencedora vê sua mão e qualquer integrante pode escolher qual dos dois inicia, com qualquer pedra. Se ambos forem robôs, a escolha é automática. No individual, o vencedor inicia. Em empate, mantém-se o direito de saída da dupla/jogador que iniciou a rodada empatada.
+
+## Versão 2.0
+Batida normal: 1 ponto; bucha ou encaixe nas duas pontas antes da última jogada: 2 pontos, não cumulativos. Placar limitado a 4. Jogo fechado: redistribuição automática após 2,5 segundos, sem alterar placar ou direito de saída.
+
+## Versão 2.1
+Batida de bucha que encaixa nas duas pontas vale 4 pontos e encerra a partida. Demais regras mantidas.
+
+## v2.2
+- Cinco ou mais buchas na distribuição inicial: rodada anulada automaticamente, sem pontos, com nova distribuição após 2,5 segundos. Direito de saída e placar preservados.
