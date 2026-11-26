@@ -27,3 +27,6 @@ Cada rodada vencida vale um ponto. Primeiro a quatro vence; GATO quando todos os
 O criador escolhe seu parceiro no lobby de duplas; os assentos são reorganizados antes da primeira rodada.
 
 V1.7: destaque da última pedra do parceiro (amarelo) e da última jogada geral (azul), com legenda e reinício a cada rodada.
+
+## v1.8
+Remove os contornos amarelos das pontas. Somente a última pedra do parceiro recebe contorno amarelo e fundo destacado. Última jogada geral em azul, com prioridade ao amarelo quando coincidem. Apenas index.html foi alterado.
