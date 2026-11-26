@@ -13,3 +13,12 @@ Não é necessário configurar banco de dados, Firebase ou Google Sheets. O serv
 
 ## Regras adotadas
 28 pedras, sete por jogador. Duplas com assentos alternados. Maior carroça abre; se não houver, maior soma. Vencedor por batida ou menor soma de pedras restantes no fechamento; empate no fechamento não pontua. Pontos são a soma das pedras restantes dos adversários. Meta 50, 100 ou 200. Compra opcional para 2/3 jogadores; sem compra por padrão. As variantes regionais podem diferir. Robôs usam estratégia simples. O anfitrião inicia rodadas e revanche; vagas são completadas por robôs. Se alguém sair durante a rodada, deve reconectar para prosseguir. O convite não inclui senha.
+
+## Versão 1.3
+Atualize server.js e public/index.html (ou todos os arquivos). No Render, Manual Deploy > Deploy latest commit. Confira a identificação v1.3 no cabeçalho e use Ctrl+F5. A mesa utiliza a altura e largura disponíveis da janela, com trilha contínua, buchas transversais e pintas rotacionadas.
+
+## v1.4
+Corrigida a falha de renderização quando existe apenas uma pedra na mesa; o estado da partida continua sendo atualizado mesmo se o desenho falhar.
+
+## V1.5
+Cada rodada vencida vale um ponto. Primeiro a quatro vence; GATO quando todos os adversários estão zerados. Empate no fechamento não pontua. Atualize server.js e public/index.html.
