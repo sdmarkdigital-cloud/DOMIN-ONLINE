@@ -22,3 +22,8 @@ Corrigida a falha de renderização quando existe apenas uma pedra na mesa; o es
 
 ## V1.5
 Cada rodada vencida vale um ponto. Primeiro a quatro vence; GATO quando todos os adversários estão zerados. Empate no fechamento não pontua. Atualize server.js e public/index.html.
+
+## v1.6
+O criador escolhe seu parceiro no lobby de duplas; os assentos são reorganizados antes da primeira rodada.
+
+V1.7: destaque da última pedra do parceiro (amarelo) e da última jogada geral (azul), com legenda e reinício a cada rodada.
