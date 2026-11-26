@@ -30,3 +30,6 @@ V1.7: destaque da última pedra do parceiro (amarelo) e da última jogada geral 
 
 ## v1.8
 Remove os contornos amarelos das pontas. Somente a última pedra do parceiro recebe contorno amarelo e fundo destacado. Última jogada geral em azul, com prioridade ao amarelo quando coincidem. Apenas index.html foi alterado.
+
+## v1.9
+Primeira rodada e revanche: maior bucha (ou maior soma se não houver bucha). Nas demais, a dupla vencedora vê sua mão e qualquer integrante pode escolher qual dos dois inicia, com qualquer pedra. Se ambos forem robôs, a escolha é automática. No individual, o vencedor inicia. Em empate, mantém-se o direito de saída da dupla/jogador que iniciou a rodada empatada.
